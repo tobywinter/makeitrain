@@ -15,10 +15,8 @@ install miniconda
 bash Miniconda3-latest-MacOSX-x86_64.sh
 
 if you are using ZSH add miniconda path to ~/.zprofile
-export PATH="$HOME/miniconda2/bin:$PATH"
+export PATH="$HOME/miniconda3/bin:$PATH"
 
-
-conda create -n makeitrain
+conda env create -f makeitrain.yml
 source activate makeitrain
-pip install -r requirements.txt
 ```
