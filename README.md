@@ -9,10 +9,10 @@ I want to predict the movement of the FTSE 100 Index
 ### How to use
 ```
 download miniconda
-https://repo.continuum.io/miniconda/Miniconda2-latest-MacOSX-x86_64.sh
+https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
 
 install miniconda
-bash Miniconda2-latest-MacOSX-x86_64.sh
+bash Miniconda3-latest-MacOSX-x86_64.sh
 
 add miniconda path to .zprofile
 export PATH="/Users/daniele/miniconda2/bin:$PATH"
