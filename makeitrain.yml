@@ -3,6 +3,11 @@ channels:
 - defaults
 dependencies:
 - bottleneck=1.2.1=np113py36_0
+- cycler=0.10.0=py36_0
+- freetype=2.5.5=2
+- icu=54.1=0
+- libpng=1.6.27=0
+- matplotlib=2.0.2=np113py36_0
 - mkl=2017.0.3=0
 - numexpr=2.6.2=np113py36_0
 - numpy=1.13.0=py36_0
@@ -10,9 +15,12 @@ dependencies:
 - pandas=0.20.2=np113py36_0
 - pandas-datareader=0.4.0=py36_0
 - pip=9.0.1=py36_1
+- pyparsing=2.1.4=py36_0
+- pyqt=5.6.0=py36_2
 - python=3.6.1=2
 - python-dateutil=2.6.0=py36_0
 - pytz=2017.2=py36_0
+- qt=5.6.2=2
 - readline=6.2=2
 - requests=2.14.2=py36_0
 - requests-file=1.4.1=py36_0
@@ -20,6 +28,7 @@ dependencies:
 - scikit-learn=0.18.2=np113py36_0
 - scipy=0.19.1=np113py36_0
 - setuptools=27.2.0=py36_0
+- sip=4.18=py36_0
 - six=1.10.0=py36_0
 - sqlite=3.13.0=0
 - tk=8.5.18=0
@@ -33,5 +42,4 @@ dependencies:
   - idna==2.5
   - multitasking==0.0.4
   - urllib3==1.21.1
-prefix: /Users/daniele/miniconda3/envs/makeitrain
 
