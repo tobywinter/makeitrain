@@ -12,7 +12,12 @@ result = [
     }
 ]
 
-@api.route('/makeitrain/api/result', methods=['GET'])
+@api.route("/")
+def welcome():
+    return "Make it rain!"
+
+
+@api.route('/api/result', methods=['GET'])
 def get_results():
     return jsonify({'result': result})
 
