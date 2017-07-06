@@ -4,3 +4,8 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.result, .accuracy {
+  font-size: 1.5em;
+  color: white;
+}
