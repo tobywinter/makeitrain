@@ -1,26 +1,19 @@
-from flask import Flask, jsonify
+from flask import Flask
+from algorithm import Algorithm
+from flask import render_template
 
 api = Flask(__name__)
 
-result = [
-    {
-        'id': 1,
-        "date": '2017-06-20',
-        "gbp": 1.234,
-        "ftse": 7.7123,
-        "raise": False,
-    }
-]
-
 @api.route("/")
 def welcome():
-    return "Make it rain!"
-
+    alg = Algorithm('data_extracted_features_without_headers.csv')
+    result = alg.svc(1037654500,5543.3100097,5810.04599608,0.346375000000003,-0.005397)
+    accuracy = alg.accuracy()
+    return render_template('index.html', result=result, accuracy=accuracy)
 
 @api.route('/api/result', methods=['GET'])
 def get_results():
-    return jsonify({'result': result})
-
+    return render_template('index.html')
 
 if __name__ == '__main__':
     api.run(debug=True)

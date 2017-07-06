@@ -57,4 +57,8 @@ export PATH="$HOME/miniconda3/bin:$PATH"
 
 conda env create -f makeitrain.yml
 source activate makeitrain
+
+
+to update the environment
+conda env update -f makeitrain.yml
 ```
