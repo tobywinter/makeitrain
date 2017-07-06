@@ -5,7 +5,24 @@
   background-size: cover;
 }
 
-.result, .accuracy {
+.results {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+#trend_value, #accuracy_value {
   font-size: 1.5em;
   color: white;
+}
+
+.trend {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #00d1b2;
+}
+
+.accuracy {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
