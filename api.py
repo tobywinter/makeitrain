@@ -11,9 +11,6 @@ def welcome():
     accuracy = alg.accuracy()
     return render_template('index.html', result=result, accuracy=accuracy)
 
-@api.route('/api/result', methods=['GET'])
-def get_results():
-    return render_template('index.html')
 
 if __name__ == '__main__':
     api.run(debug=True)
