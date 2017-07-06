@@ -26,5 +26,10 @@ dependencies:
 - wheel=0.29.0=py36_0
 - xz=5.2.2=1
 - zlib=1.2.8=3
-prefix: /Users/daniele/miniconda3/envs/makeitrain
+- pip:
+  - fix-yahoo-finance==0.0.18
+  - multitasking==0.0.4
+  - simplejson==3.11.1
+  - yahoo-finance==1.4.0
+prefix: /Users/simo/miniconda3/envs/makeitrain
 
