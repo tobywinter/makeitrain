@@ -1,8 +1,14 @@
-.section {
+body {
   height: 100vh;
-  background-image: url('/static/background.jpg');
+}
+
+.section {
+  height: 100%;
+  background-color: #6A9794;
+  background-image: url('/static/background.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
+  background-position: 50% 50%;
 }
 
 .results {
@@ -26,3 +32,5 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+
