@@ -38,7 +38,7 @@ export PATH="$HOME/miniconda3/bin:$PATH"
 - and then source the file the enable the changes
 source ~/.zprofile
 
-- creat a new conda environment
+- create a new conda environment
 conda env create makeitrain
 
 - activate the newely created environment
