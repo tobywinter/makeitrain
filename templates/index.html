@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="results">
+  <div class="trend">
+    <h2 class='title is-3'>Trend</h2>
+    {% if result[0] > 0 %}
+      <p id="trend_value">
+      <i class="fa fa-arrow-circle-o-up" style="color: #00d1b2; font-size: 1.5em;"></i>
+      {{ result[0] }}
+      </p>
+    {% else %}
+      <p id="trend_value">
+      <i class="fa fa-arrow-circle-o-down" style="color: tomato; font-size: 1.5em;"></i>
+      {{ result[0] }}
+    {% endif %}
+  </div>
+
+  <div class="accuracy">
+    <h2 class="title is-3">Accuracy</h2>
+    <p id="accuracy_value">{{ accuracy }}</p>
+  </div>
+</div>
+{% endblock %}
