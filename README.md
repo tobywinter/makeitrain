@@ -30,16 +30,20 @@ I want to predict the movement of the FTSE 100 Index
 download miniconda
 https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
 
-install miniconda
+- install miniconda
 bash Miniconda3-latest-MacOSX-x86_64.sh
 
-if you are using ZSH add miniconda path to ~/.zprofile
+- if you are using ZSH add miniconda path to ~/.zprofile
 export PATH="$HOME/miniconda3/bin:$PATH"
+- and then source the file the enable the changes
+source ~/.zprofile
 
-conda env create -f makeitrain.yml
+- creat a new conda environment
+conda env create makeitrain
+
+- activate the newely created environment
 source activate makeitrain
 
-
-to update the environment
-conda env update -f makeitrain.yml
+- install the needed dependecies
+pip install -r requirements.txt
 ```
