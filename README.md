@@ -27,23 +27,23 @@ I want to predict the movement of the FTSE 100 Index
 
 ### How to use
 ```
-download miniconda
-https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
+- Download miniconda
+  https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
 
-- install miniconda
-bash Miniconda3-latest-MacOSX-x86_64.sh
+- Install miniconda
+  bash Miniconda3-latest-MacOSX-x86_64.sh
 
-- if you are using ZSH add miniconda path to ~/.zprofile
-export PATH="$HOME/miniconda3/bin:$PATH"
-- and then source the file the enable the changes
-source ~/.zprofile
+- If you are using ZSH add miniconda path to ~/.zprofile
+  export PATH="$HOME/miniconda3/bin:$PATH"
+- And then source the file the enable the changes
+  source ~/.zprofile
 
-- create a new conda environment
-conda env create makeitrain
+- Create a new conda environment
+  conda env create makeitrain
 
-- activate the newely created environment
-source activate makeitrain
+- Activate the newely created environment
+  source activate makeitrain
 
-- install the needed dependecies
-pip install -r requirements.txt
+- Install the needed dependecies
+  pip install -r requirements.txt
 ```
