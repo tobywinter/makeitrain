@@ -4,6 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 
+
 class Algorithm:
 
     def __init__(self, file):
@@ -18,6 +19,7 @@ class Algorithm:
 
     def split_data(self):
         self.features_train, self.features_test, self.label_train, self.label_test = train_test_split(self.features, self.label, test_size=0.25, random_state=42)
+
 
     def svc(self, ftse_trade_volume, ten_day_moving_av,fifty_day_moving_av, two_day_netprice_diff, gbp_diff):
         self.split_data()
@@ -39,6 +41,6 @@ class Algorithm:
 
 
 if __name__ == '__main__':
-    alg = Algorithm('data_extracted_features_without_headers.csv')
+    alg = Algorithm('monthly-prediction-data-without-head.csv')
     print(alg.svc(1037654500,5543.3100097,5810.04599608,0.346375000000003,-0.005397))
     print(alg.accuracy())

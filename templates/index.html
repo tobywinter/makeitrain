@@ -2,22 +2,46 @@
 {% block content %}
 <div class="results">
   <div class="trend">
-    <h2 class='title is-3'>Trend</h2>
+    <h2 class='title is-3'>1D Trend</h2>
     {% if result[0] > 0 %}
       <p id="trend_value">
       <i class="fa fa-arrow-circle-o-up" style="color: #00d1b2; font-size: 1.5em;"></i>
-      {{ result[0] }}
+      {{ 'UP' }}
       </p>
     {% else %}
       <p id="trend_value">
       <i class="fa fa-arrow-circle-o-down" style="color: tomato; font-size: 1.5em;"></i>
-      {{ result[0] }}
+      {{ 'DOWN' }}
     {% endif %}
   </div>
 
   <div class="accuracy">
-    <h2 class="title is-3">Accuracy</h2>
+    <h2 class="title is-3">1D Accuracy</h2>
     <p id="accuracy_value">{{ accuracy }}</p>
   </div>
 </div>
+
+<p><br><br>
+
+  <div class="results">
+    <div class="trend">
+      <h2 class='title is-3'>30D Trend</h2>
+      {% if result_long[0] > 0 %}
+        <p id="trend_value">
+        <i class="fa fa-arrow-circle-o-up" style="color: #00d1b2; font-size: 1.5em;"></i>
+        {{ 'UP' }}
+        </p>
+      {% else %}
+        <p id="trend_value">
+        <i class="fa fa-arrow-circle-o-down" style="color: tomato; font-size: 1.5em;"></i>
+        {{ 'DOWN' }}
+      {% endif %}
+    </div>
+
+    <div class="accuracy">
+      <h2 class="title is-3">30D Accuracy</h2>
+      <p id="accuracy_value">{{ accuracy_long }}</p>
+    </div>
+  </div>
+
 {% endblock %}

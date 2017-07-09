@@ -1,5 +1,11 @@
 # makeitrain
 
+This is an application using machine learning to predict the future movement of the FTSE100 index. Each day, it will generate it's prediction for the FTSE100 for the next day and the accuracy of its prediction.
+
+![Front-page](http://imgur.com/bR1UsHC)
+
+## User Stories
+
 **EPIC**
 ```
 As a user
@@ -25,7 +31,7 @@ I want to predict the movement of the FTSE 100 Index
  I want the prediction to have a minimum accuracy of 75%
  ```
 
-### How to use
+## How To Use
 ```
 download miniconda
 https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
@@ -43,3 +49,13 @@ source activate makeitrain
 to update the environment
 conda env update -f makeitrain.yml
 ```
+
+## Pending Improvements
+
+## Contributors
+[Charlotte](www.github.com/charlieafea)
+[Daniele](www.github.com/)
+[Kavita](www.github.com/)
+[Toby](www.github.com/)
+[Ian](www.github.com/)
+[Spencer](www.github.com/)
