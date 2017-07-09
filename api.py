@@ -13,11 +13,11 @@ def welcome():
     two_day_netprice_diff = data_processor.get_2day_net_price_difference()
     gbp_diff = data_processor.get_gbp_difference()
 
-    alg = Algorithm('data_extracted_features_without_headers.csv')
+    alg = Algorithm('daily_prediction_data.csv')
     result = alg.svc(1037654500,ten_day_moving_av,fifty_day_moving_av,two_day_netprice_diff,gbp_diff)
     accuracy = alg.accuracy()
 
-    alg_long = Algorithm('monthly-prediction-data-without-headers.csv')
+    alg_long = Algorithm('monthly_prediction_data.csv')
     result_long = alg_long.svc(1037654500,ten_day_moving_av,fifty_day_moving_av,two_day_netprice_diff,gbp_diff)
     accuracy_long = alg_long.accuracy()
 
