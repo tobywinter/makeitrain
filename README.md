@@ -58,9 +58,9 @@ I want to predict the movement of the FTSE 100 Index
 * Reorganising repo and removing all unnecessary data files
 
 ## Contributors
-![Charlotte](www.github.com/charlieafea)
-![Daniele](www.github.com/y0m0)
-![Kavita](www.github.com/spencerbf)
-![Toby](www.github.com/tobywinter)
-![Ian](www.github.com/Simo72)
-![Spencer](www.github.com/)
+-[Charlotte](www.github.com/charlieafea)
+-[Daniele](www.github.com/y0m0)
+-[Kavita](www.github.com/spencerbf)
+-[Toby](www.github.com/tobywinter)
+-[Ian](www.github.com/Simo72)
+-[Spencer](www.github.com/)
