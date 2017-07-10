@@ -50,6 +50,7 @@ I want to predict the movement of the FTSE 100 Index
  I want the prediction to have a minimum accuracy of 75%
  ```
 
+<<<<<<< HEAD
 ## Pending Improvements
 * Writing and implementing our own algorithm
 * Improve feature selection to increase our accuracy score
@@ -64,3 +65,27 @@ I want to predict the movement of the FTSE 100 Index
 -[Toby](www.github.com/tobywinter)
 -[Ian](www.github.com/Simo72)
 -[Spencer](www.github.com/)
+=======
+### How to use
+```
+- Download miniconda
+  https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
+
+- Install miniconda
+  bash Miniconda3-latest-MacOSX-x86_64.sh
+
+- If you are using ZSH add miniconda path to ~/.zprofile
+  export PATH="$HOME/miniconda3/bin:$PATH"
+- And then source the file the enable the changes
+  source ~/.zprofile
+
+- Create a new conda environment
+  conda env create makeitrain
+
+- Activate the newely created environment
+  source activate makeitrain
+
+- Install the needed dependecies
+  pip install -r requirements.txt
+```
+>>>>>>> e9d0840b6353a777213ae7443e2181c677cf361a
