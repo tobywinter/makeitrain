@@ -1,12 +1,37 @@
 # makeitrain
 
+This is an application using machine learning to predict the future movement of the FTSE100 index. Each day, it will generate it's prediction for the FTSE100 for the next day and the accuracy of its prediction.
+
+[Front-page](http://i.imgur.com/Kx4rBEa.jpg)
+
+## How To Use
+```
+download miniconda
+https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
+
+install miniconda
+bash Miniconda3-latest-MacOSX-x86_64.sh
+
+if you are using ZSH add miniconda path to ~/.zprofile
+export PATH="$HOME/miniconda3/bin:$PATH"
+
+conda env create -f makeitrain.yml
+source activate makeitrain
+
+
+to update the environment
+conda env update -f makeitrain.yml
+```
+
+## User Stories
+
 **EPIC**
 ```
 As a user
 So I can make it rain
 I want to predict the movement of the FTSE 100 Index
 ```
-**USER STORIES**
+**NOT SO EPIC**
  ```
  As a user
  So I can know to buy or short
@@ -25,6 +50,22 @@ I want to predict the movement of the FTSE 100 Index
  I want the prediction to have a minimum accuracy of 75%
  ```
 
+<<<<<<< HEAD
+## Pending Improvements
+* Writing and implementing our own algorithm
+* Improve feature selection to increase our accuracy score
+* Process of getting daily data so result page is automatically updated not entirely functional (YET!)
+* Refactor party - namely for api.py
+* Reorganising repo and removing all unnecessary data files
+
+## Contributors
+-[Charlotte](www.github.com/charlieafea)
+-[Daniele](www.github.com/y0m0)
+-[Kavita](www.github.com/spencerbf)
+-[Toby](www.github.com/tobywinter)
+-[Ian](www.github.com/Simo72)
+-[Spencer](www.github.com/)
+=======
 ### How to use
 ```
 - Download miniconda
@@ -47,3 +88,4 @@ I want to predict the movement of the FTSE 100 Index
 - Install the needed dependecies
   pip install -r requirements.txt
 ```
+>>>>>>> e9d0840b6353a777213ae7443e2181c677cf361a
