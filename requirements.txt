@@ -3,6 +3,7 @@ certifi==2017.4.17
 chardet==3.0.4
 click==6.7
 cycler==0.10.0
+fix-yahoo-finance==0.0.18
 Flask==0.12.2
 idna==2.5
 itsdangerous==0.24
@@ -13,7 +14,7 @@ multitasking==0.0.4
 numexpr==2.6.2
 numpy==1.13.0
 pandas==0.20.2
--e git+https://github.com/rgkimball/pandas-datareader.git\#egg=pandas_datareader
+-e git+https://github.com/rgkimball/pandas-datareader.git@abb0fb945ec40c18e498b895db7909254f40fb3f#egg=pandas_datareader
 py==1.4.34
 pyparsing==2.1.4
 pytest==3.1.2
@@ -24,6 +25,8 @@ requests-file==1.4.1
 requests-ftp==0.3.1
 scikit-learn==0.18.2
 scipy==0.19.1
+simplejson==3.11.1
 six==1.10.0
 urllib3==1.21.1
 Werkzeug==0.12.2
+yahoo-finance==1.4.0
