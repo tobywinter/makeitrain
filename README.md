@@ -50,7 +50,6 @@ I want to predict the movement of the FTSE 100 Index
  I want the prediction to have a minimum accuracy of 75%
  ```
 
-<<<<<<< HEAD
 ## Pending Improvements
 * Writing and implementing our own algorithm
 * Improve feature selection to increase our accuracy score
@@ -59,13 +58,13 @@ I want to predict the movement of the FTSE 100 Index
 * Reorganising repo and removing all unnecessary data files
 
 ## Contributors
--[Charlotte](www.github.com/charlieafea)
--[Daniele](www.github.com/y0m0)
--[Kavita](www.github.com/spencerbf)
--[Toby](www.github.com/tobywinter)
--[Ian](www.github.com/Simo72)
--[Spencer](www.github.com/)
-=======
+- [Charlotte](www.github.com/charlieafea)
+- [Daniele](www.github.com/y0m0)
+- [Kavita](www.github.com/spencerbf)
+- [Toby](www.github.com/tobywinter)
+- [Ian](www.github.com/Simo72)
+- [Spencer](www.github.com/)
+
 ### How to use
 ```
 - Download miniconda
@@ -88,4 +87,3 @@ I want to predict the movement of the FTSE 100 Index
 - Install the needed dependecies
   pip install -r requirements.txt
 ```
->>>>>>> e9d0840b6353a777213ae7443e2181c677cf361a
