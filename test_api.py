@@ -8,12 +8,12 @@ class ApiTestCase(unittest.TestCase):
         tester = api.test_client(self)
         response = tester.get("/", content_type="html/txt")
         self.assertEqual(response.status_code, 200)
-        self.assertEqual(response.data, b'Make it rain!')
+        self.assertEqual(response.data, b'1D Trend')
 
 class AlgorithmTestCase(unittest.TestCase):
 
     def setUp(self):
-        self.test_alg = Algorithm('data_extracted_features_without_headers.csv')
+        self.test_alg = Algorithm('collated_data_without_headers.csv')
 
     def test_split_data(self):
         data_length = self.test_alg.dataset.shape[0]
