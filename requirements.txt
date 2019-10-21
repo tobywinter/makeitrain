@@ -28,5 +28,5 @@ scipy==0.19.1
 simplejson==3.11.1
 six==1.10.0
 urllib3==1.21.1
-Werkzeug==0.12.2
+Werkzeug==0.15.3
 yahoo-finance==1.4.0
