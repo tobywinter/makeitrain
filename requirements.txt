@@ -15,7 +15,7 @@ numexpr==2.6.2
 numpy==1.13.0
 pandas==0.20.2
 -e git+https://github.com/rgkimball/pandas-datareader.git@abb0fb945ec40c18e498b895db7909254f40fb3f#egg=pandas_datareader
-py==1.4.34
+py==1.10.0
 pyparsing==2.1.4
 pytest==3.1.2
 python-dateutil==2.6.0
