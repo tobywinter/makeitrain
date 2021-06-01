@@ -27,6 +27,6 @@ scikit-learn==0.18.2
 scipy==0.19.1
 simplejson==3.11.1
 six==1.10.0
-urllib3==1.21.1
+urllib3==1.26.5
 Werkzeug==0.12.2
 yahoo-finance==1.4.0
