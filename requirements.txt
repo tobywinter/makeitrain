@@ -12,7 +12,7 @@ MarkupSafe==0.23
 matplotlib==2.0.2
 multitasking==0.0.4
 numexpr==2.6.2
-numpy==1.13.0
+numpy==1.22.0
 pandas==0.20.2
 -e git+https://github.com/rgkimball/pandas-datareader.git@abb0fb945ec40c18e498b895db7909254f40fb3f#egg=pandas_datareader
 py==1.4.34
